@@ -10,27 +10,27 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "FoodB Pizza - Fresh Authentic Pizza Delivery",
-  description: "Enjoy authentic pizza from FoodB. Premium ingredients, fast delivery, and exceptional taste. Order now or call 48388383838.",
-  keywords: "pizza delivery, fresh pizza, authentic pizza, FoodB, pizza restaurant",
-  metadataBase: new URL("https://foodb.com"),
+  title: "Food Pizza - Fresh Authentic Pizza Delivery",
+  description: "Enjoy authentic pizza from Food. Premium ingredients, fast delivery, and exceptional taste. Order now or call 48388383838.",
+  keywords: "pizza delivery, fresh pizza, authentic pizza, Food, pizza restaurant",
+  metadataBase: new URL("https://food.com"),
   alternates: {
-    canonical: "https://foodb.com"
+    canonical: "https://food.com"
   },
   openGraph: {
-    title: "FoodB Pizza - Fresh Authentic Pizza Delivery",
-    description: "Enjoy authentic pizza from FoodB. Premium ingredients, fast delivery, and exceptional taste.",
-    siteName: "FoodB",
+    title: "Food Pizza - Fresh Authentic Pizza Delivery",
+    description: "Enjoy authentic pizza from Food. Premium ingredients, fast delivery, and exceptional taste.",
+    siteName: "Food",
     type: "website",
     images: [{
       url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg",
-      alt: "FoodB Pizza"
+      alt: "Food Pizza"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "FoodB Pizza - Fresh Authentic Pizza Delivery",
-    description: "Enjoy authentic pizza from FoodB. Premium ingredients, fast delivery.",
+    title: "Food Pizza - Fresh Authentic Pizza Delivery",
+    description: "Enjoy authentic pizza from Food. Premium ingredients, fast delivery.",
     images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg"]
   }
 };
