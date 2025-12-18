@@ -10,27 +10,27 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "FoodBads Pizza - Fresh Authentic Pizza Delivery",
-  description: "Enjoy authentic pizza from FoodBads. Premium ingredients, fast delivery, and exceptional taste. Order now or call 48388383838.",
-  keywords: "pizza delivery, fresh pizza, authentic pizza, FoodBads, pizza restaurant",
-  metadataBase: new URL("https://foodbads.com"),
+  title: "FoodBading Pizza - Fresh Authentic Pizza Delivery",
+  description: "Enjoy authentic pizza from FoodBading. Premium ingredients, fast delivery, and exceptional taste. Order now or call 48388383838.",
+  keywords: "pizza delivery, fresh pizza, authentic pizza, FoodBading, pizza restaurant",
+  metadataBase: new URL("https://foodbading.com"),
   alternates: {
-    canonical: "https://foodbads.com"
+    canonical: "https://foodbading.com"
   },
   openGraph: {
-    title: "FoodBads Pizza - Fresh Authentic Pizza Delivery",
-    description: "Enjoy authentic pizza from FoodBads. Premium ingredients, fast delivery, and exceptional taste.",
-    siteName: "FoodBads",
+    title: "FoodBading Pizza - Fresh Authentic Pizza Delivery",
+    description: "Enjoy authentic pizza from FoodBading. Premium ingredients, fast delivery, and exceptional taste.",
+    siteName: "FoodBading",
     type: "website",
     images: [{
       url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg",
-      alt: "FoodBads Pizza"
+      alt: "FoodBading Pizza"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "FoodBads Pizza - Fresh Authentic Pizza Delivery",
-    description: "Enjoy authentic pizza from FoodBads. Premium ingredients, fast delivery.",
+    title: "FoodBading Pizza - Fresh Authentic Pizza Delivery",
+    description: "Enjoy authentic pizza from FoodBading. Premium ingredients, fast delivery.",
     images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg"]
   }
 };
