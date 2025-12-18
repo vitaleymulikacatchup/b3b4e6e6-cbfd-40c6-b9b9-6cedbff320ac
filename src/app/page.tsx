@@ -26,7 +26,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
-          brandName="FoodBadin"
+          brandName="FoodBa"
           navItems={[
             { name: "Home", id: "hero" },
             { name: "Menu", id: "menu" },
@@ -42,10 +42,10 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroLogoBillboard
-          logoText="FoodBadin"
+          logoText="FoodBa"
           description="Experience authentic pizza crafted with passion. Premium ingredients, traditional recipes, and unbeatable flavor. Order your favorite pizza today."
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg"
-          imageAlt="Delicious FoodBadin pizza"
+          imageAlt="Delicious FoodBa pizza"
           frameStyle="card"
         />
       </div>
@@ -91,10 +91,10 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <FeatureCardTwentyOne
-          title="About FoodBadin"
-          description="Discover what makes FoodBadin the best pizza destination in town. We are committed to quality, taste, and customer satisfaction."
+          title="About FoodBa"
+          description="Discover what makes FoodBa the best pizza destination in town. We are committed to quality, taste, and customer satisfaction."
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060011405-g3sjs5uv.jpg"
-          imageAlt="FoodBadin restaurant interior"
+          imageAlt="FoodBa restaurant interior"
           accordionItems={[
             {
               id: "1",
@@ -120,13 +120,13 @@ export default function LandingPage() {
       <div id="testimonial" data-section="testimonial">
         <TestimonialCardTwo
           title="Customer Love"
-          description="See what our happy customers have to say about FoodBadin pizza"
+          description="See what our happy customers have to say about FoodBa pizza"
           testimonials={[
             {
               id: "1",
               name: "Sarah Johnson",
               role: "Food Enthusiast",
-              testimonial: "The best pizza I have ever tasted! Fresh ingredients, perfect texture, and amazing flavor. Highly recommend FoodBadin!",
+              testimonial: "The best pizza I have ever tasted! Fresh ingredients, perfect texture, and amazing flavor. Highly recommend FoodBa!",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060018001-q1wr665u.jpg",
               imageAlt: "Sarah Johnson"
             },
@@ -134,7 +134,7 @@ export default function LandingPage() {
               id: "2",
               name: "Michael Chen",
               role: "Regular Customer",
-              testimonial: "Consistently excellent quality and fast delivery. FoodBadin has become my go-to pizza place. Never disappoints!",
+              testimonial: "Consistently excellent quality and fast delivery. FoodBa has become my go-to pizza place. Never disappoints!",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060019816-7y033k5p.jpg",
               imageAlt: "Michael Chen"
             },
@@ -150,7 +150,7 @@ export default function LandingPage() {
               id: "4",
               name: "David Kim",
               role: "Event Organizer",
-              testimonial: "We order from FoodBadin for all our events. The team is professional, the pizza is delicious, and prices are fair.",
+              testimonial: "We order from FoodBa for all our events. The team is professional, the pizza is delicious, and prices are fair.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060022950-cv0r1cmt.jpg",
               imageAlt: "David Kim"
             }
@@ -165,7 +165,7 @@ export default function LandingPage() {
       <div id="locations" data-section="locations">
         <TeamCardTwo
           title="Our Locations"
-          description="Visit FoodBadin at any of our convenient locations"
+          description="Visit FoodBa at any of our convenient locations"
           members={[
             {
               id: "1",
@@ -173,7 +173,7 @@ export default function LandingPage() {
               role: "Main Location",
               description: "Open daily 11am - 10pm. 123 Main Street, City Center. For reservations call 48388383838",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060014983-210hqkw7.jpg",
-              imageAlt: "Downtown FoodBadin location"
+              imageAlt: "Downtown FoodBa location"
             },
             {
               id: "2",
@@ -181,7 +181,7 @@ export default function LandingPage() {
               role: "Secondary Location",
               description: "Open daily 12pm - 11pm. 456 West Avenue, Shopping District. Call for orders: 48388383838",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060016272-pjni1f4f.jpg",
-              imageAlt: "Westside FoodBadin location"
+              imageAlt: "Westside FoodBa location"
             }
           ]}
           gridVariant="uniform-all-items-equal"
@@ -206,8 +206,8 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterBase
-          logoText="FoodBadin"
-          copyrightText="© 2025 FoodBadin Pizza. All rights reserved."
+          logoText="FoodBa"
+          copyrightText="© 2025 FoodBa Pizza. All rights reserved."
           columns={[
             {
               title: "Menu",
@@ -229,7 +229,7 @@ export default function LandingPage() {
               title: "Contact",
               items: [
                 { label: "Phone: 48388383838", href: "tel:48388383838" },
-                { label: "Email: info@foodbadin.com", href: "mailto:info@foodbadin.com" },
+                { label: "Email: info@foodba.com", href: "mailto:info@foodba.com" },
                 { label: "Hours: 11am - 11pm", href: "#" }
               ]
             }

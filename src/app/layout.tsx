@@ -10,27 +10,27 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "FoodBadin Pizza - Fresh Authentic Pizza Delivery",
-  description: "Enjoy authentic pizza from FoodBadin. Premium ingredients, fast delivery, and exceptional taste. Order now or call 48388383838.",
-  keywords: "pizza delivery, fresh pizza, authentic pizza, FoodBadin, pizza restaurant",
-  metadataBase: new URL("https://foodbadin.com"),
+  title: "FoodBa Pizza - Fresh Authentic Pizza Delivery",
+  description: "Enjoy authentic pizza from FoodBa. Premium ingredients, fast delivery, and exceptional taste. Order now or call 48388383838.",
+  keywords: "pizza delivery, fresh pizza, authentic pizza, FoodBa, pizza restaurant",
+  metadataBase: new URL("https://foodba.com"),
   alternates: {
-    canonical: "https://foodbadin.com"
+    canonical: "https://foodba.com"
   },
   openGraph: {
-    title: "FoodBadin Pizza - Fresh Authentic Pizza Delivery",
-    description: "Enjoy authentic pizza from FoodBadin. Premium ingredients, fast delivery, and exceptional taste.",
-    siteName: "FoodBadin",
+    title: "FoodBa Pizza - Fresh Authentic Pizza Delivery",
+    description: "Enjoy authentic pizza from FoodBa. Premium ingredients, fast delivery, and exceptional taste.",
+    siteName: "FoodBa",
     type: "website",
     images: [{
       url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg",
-      alt: "FoodBadin Pizza"
+      alt: "FoodBa Pizza"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "FoodBadin Pizza - Fresh Authentic Pizza Delivery",
-    description: "Enjoy authentic pizza from FoodBadin. Premium ingredients, fast delivery.",
+    title: "FoodBa Pizza - Fresh Authentic Pizza Delivery",
+    description: "Enjoy authentic pizza from FoodBa. Premium ingredients, fast delivery.",
     images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg"]
   }
 };
