@@ -10,27 +10,27 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "FoodHealth Pizza - Fresh Authentic Pizza Delivery",
-  description: "Enjoy authentic pizza from FoodHealth. Premium ingredients, fast delivery, and exceptional taste. Order now or call 48388383838.",
-  keywords: "pizza delivery, fresh pizza, authentic pizza, FoodHealth, pizza restaurant",
-  metadataBase: new URL("https://foodhealth.com"),
+  title: "FoodBad Pizza - Fresh Authentic Pizza Delivery",
+  description: "Enjoy authentic pizza from FoodBad. Premium ingredients, fast delivery, and exceptional taste. Order now or call 48388383838.",
+  keywords: "pizza delivery, fresh pizza, authentic pizza, FoodBad, pizza restaurant",
+  metadataBase: new URL("https://foodbad.com"),
   alternates: {
-    canonical: "https://foodhealth.com"
+    canonical: "https://foodbad.com"
   },
   openGraph: {
-    title: "FoodHealth Pizza - Fresh Authentic Pizza Delivery",
-    description: "Enjoy authentic pizza from FoodHealth. Premium ingredients, fast delivery, and exceptional taste.",
-    siteName: "FoodHealth",
+    title: "FoodBad Pizza - Fresh Authentic Pizza Delivery",
+    description: "Enjoy authentic pizza from FoodBad. Premium ingredients, fast delivery, and exceptional taste.",
+    siteName: "FoodBad",
     type: "website",
     images: [{
       url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg",
-      alt: "FoodHealth Pizza"
+      alt: "FoodBad Pizza"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "FoodHealth Pizza - Fresh Authentic Pizza Delivery",
-    description: "Enjoy authentic pizza from FoodHealth. Premium ingredients, fast delivery.",
+    title: "FoodBad Pizza - Fresh Authentic Pizza Delivery",
+    description: "Enjoy authentic pizza from FoodBad. Premium ingredients, fast delivery.",
     images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35eNGemlCEhFf8xGC6iUDmHzPTI/uploaded-1766060003084-teyn4e0p.jpg"]
   }
 };
