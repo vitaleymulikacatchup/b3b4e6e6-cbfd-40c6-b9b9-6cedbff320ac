@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -155,7 +155,6 @@ export default function LandingPage() {
               imageAlt: "David Kim"
             }
           ]}
-          gridVariant="uniform-all-items-equal"
           animationType="slide-up"
           containerStyle="default"
           textboxLayout="default"
